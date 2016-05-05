@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>titleGroup</key>
+		<string>Basic</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>titleCell</key>
+				<string>Fill Color</string>
+				<key>viewClass</key>
+				<string>ViewFillColor</string>
+			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Draw Line</string>
+				<key>viewClass</key>
+				<string>ViewDrawLine</string>
+			</dict>
+            <dict>
+                <key>titleCell</key>
+                <string>Basic Rectangle</string>
+                <key>viewClass</key>
+                <string>ViewBasicRectangle</string>
+            </dict>
+            <dict>
+                <key>titleCell</key>
+                <string>Rotate Rectangle</string>
+                <key>viewClass</key>
+                <string>ViewRotateRect</string>
+            </dict>
+            <dict>
+                <key>titleCell</key>
+                <string>Basic Path</string>
+                <key>viewClass</key>
+                <string>ViewBasicPath</string>
+            </dict>
+		</array>
+	</dict>
+</array>
+</plist>
