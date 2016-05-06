@@ -16,6 +16,16 @@
 		B81D84661CDAED740007AE04 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81D84651CDAED740007AE04 /* data.plist */; };
 		B81D846B1CDAFC730007AE04 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D846A1CDAFC730007AE04 /* QuartzView.m */; };
 		B81D84731CDB02B90007AE04 /* ViewFillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D84721CDB02B90007AE04 /* ViewFillColor.m */; };
+		B8A65B1A1CDC344C005CB16D /* ViewDrawLineTap.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A65B191CDC344C005CB16D /* ViewDrawLineTap.m */; };
+		B8AA83DE1CDC408D00A59113 /* ViewFillPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA83DD1CDC408D00A59113 /* ViewFillPath.m */; };
+		B8F595261CDC878800FA3D16 /* ViewQuadraticBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F595251CDC878800FA3D16 /* ViewQuadraticBezierCurve.m */; };
+		B8F5952A1CDC8AAC00FA3D16 /* ViewControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F595291CDC8AAC00FA3D16 /* ViewControlPoint.m */; };
+		B8F5952D1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F5952C1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m */; };
+		B8F595301CDCAC9100FA3D16 /* ViewDrawText.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F5952F1CDCAC9100FA3D16 /* ViewDrawText.m */; };
+		B8F595341CDCB08700FA3D16 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8F595311CDCB08700FA3D16 /* KaushanScript-Regular.otf */; };
+		B8F595351CDCB08700FA3D16 /* BaroqueScript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F595321CDCB08700FA3D16 /* BaroqueScript.ttf */; };
+		B8F595361CDCB08700FA3D16 /* Palatino Linotype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F595331CDCB08700FA3D16 /* Palatino Linotype.ttf */; };
+		B8F5953A1CDCB20F00FA3D16 /* ViewGradientRoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F595391CDCB20F00FA3D16 /* ViewGradientRoundedRect.m */; };
 		B8F835F81CDB2A58006E8F7F /* ViewDrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F835F71CDB2A58006E8F7F /* ViewDrawLine.m */; };
 		B8F835FB1CDB435C006E8F7F /* ViewBasicRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F835FA1CDB435C006E8F7F /* ViewBasicRectangle.m */; };
 		B8F835FE1CDB46A7006E8F7F /* ViewRotateRect.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F835FD1CDB46A7006E8F7F /* ViewRotateRect.m */; };
@@ -39,6 +49,23 @@
 		B81D846A1CDAFC730007AE04 /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 		B81D84711CDB02B90007AE04 /* ViewFillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFillColor.h; sourceTree = "<group>"; };
 		B81D84721CDB02B90007AE04 /* ViewFillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFillColor.m; sourceTree = "<group>"; };
+		B8A65B181CDC344C005CB16D /* ViewDrawLineTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrawLineTap.h; sourceTree = "<group>"; };
+		B8A65B191CDC344C005CB16D /* ViewDrawLineTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrawLineTap.m; sourceTree = "<group>"; };
+		B8AA83DC1CDC408D00A59113 /* ViewFillPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFillPath.h; sourceTree = "<group>"; };
+		B8AA83DD1CDC408D00A59113 /* ViewFillPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFillPath.m; sourceTree = "<group>"; };
+		B8F595241CDC878800FA3D16 /* ViewQuadraticBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewQuadraticBezierCurve.h; sourceTree = "<group>"; };
+		B8F595251CDC878800FA3D16 /* ViewQuadraticBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewQuadraticBezierCurve.m; sourceTree = "<group>"; };
+		B8F595281CDC8AAC00FA3D16 /* ViewControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControlPoint.h; sourceTree = "<group>"; };
+		B8F595291CDC8AAC00FA3D16 /* ViewControlPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControlPoint.m; sourceTree = "<group>"; };
+		B8F5952B1CDCA21F00FA3D16 /* ViewCubicBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCubicBezierCurve.h; sourceTree = "<group>"; };
+		B8F5952C1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCubicBezierCurve.m; sourceTree = "<group>"; };
+		B8F5952E1CDCAC9100FA3D16 /* ViewDrawText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrawText.h; sourceTree = "<group>"; };
+		B8F5952F1CDCAC9100FA3D16 /* ViewDrawText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrawText.m; sourceTree = "<group>"; };
+		B8F595311CDCB08700FA3D16 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		B8F595321CDCB08700FA3D16 /* BaroqueScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BaroqueScript.ttf; sourceTree = "<group>"; };
+		B8F595331CDCB08700FA3D16 /* Palatino Linotype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Palatino Linotype.ttf"; sourceTree = "<group>"; };
+		B8F595381CDCB20F00FA3D16 /* ViewGradientRoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGradientRoundedRect.h; sourceTree = "<group>"; };
+		B8F595391CDCB20F00FA3D16 /* ViewGradientRoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewGradientRoundedRect.m; sourceTree = "<group>"; };
 		B8F835F61CDB2A58006E8F7F /* ViewDrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrawLine.h; sourceTree = "<group>"; };
 		B8F835F71CDB2A58006E8F7F /* ViewDrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrawLine.m; sourceTree = "<group>"; };
 		B8F835F91CDB435C006E8F7F /* ViewBasicRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBasicRectangle.h; sourceTree = "<group>"; };
@@ -142,8 +169,49 @@
 				B8F835FD1CDB46A7006E8F7F /* ViewRotateRect.m */,
 				B8F835FF1CDB4DEC006E8F7F /* ViewBasicPath.h */,
 				B8F836001CDB4DEC006E8F7F /* ViewBasicPath.m */,
+				B8A65B181CDC344C005CB16D /* ViewDrawLineTap.h */,
+				B8A65B191CDC344C005CB16D /* ViewDrawLineTap.m */,
+				B8AA83DC1CDC408D00A59113 /* ViewFillPath.h */,
+				B8AA83DD1CDC408D00A59113 /* ViewFillPath.m */,
+				B8F595201CDC85FC00FA3D16 /* Bezier Curve */,
+				B8F595371CDCB1ED00FA3D16 /* View Text Basic */,
+				B8F595381CDCB20F00FA3D16 /* ViewGradientRoundedRect.h */,
+				B8F595391CDCB20F00FA3D16 /* ViewGradientRoundedRect.m */,
 			);
 			name = Basic;
+			sourceTree = "<group>";
+		};
+		B8F595201CDC85FC00FA3D16 /* Bezier Curve */ = {
+			isa = PBXGroup;
+			children = (
+				B8F595241CDC878800FA3D16 /* ViewQuadraticBezierCurve.h */,
+				B8F595251CDC878800FA3D16 /* ViewQuadraticBezierCurve.m */,
+				B8F5952B1CDCA21F00FA3D16 /* ViewCubicBezierCurve.h */,
+				B8F5952C1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m */,
+				B8F595271CDC8A8700FA3D16 /* Control Point */,
+			);
+			name = "Bezier Curve";
+			sourceTree = "<group>";
+		};
+		B8F595271CDC8A8700FA3D16 /* Control Point */ = {
+			isa = PBXGroup;
+			children = (
+				B8F595281CDC8AAC00FA3D16 /* ViewControlPoint.h */,
+				B8F595291CDC8AAC00FA3D16 /* ViewControlPoint.m */,
+			);
+			name = "Control Point";
+			sourceTree = "<group>";
+		};
+		B8F595371CDCB1ED00FA3D16 /* View Text Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B8F5952E1CDCAC9100FA3D16 /* ViewDrawText.h */,
+				B8F5952F1CDCAC9100FA3D16 /* ViewDrawText.m */,
+				B8F595311CDCB08700FA3D16 /* KaushanScript-Regular.otf */,
+				B8F595321CDCB08700FA3D16 /* BaroqueScript.ttf */,
+				B8F595331CDCB08700FA3D16 /* Palatino Linotype.ttf */,
+			);
+			name = "View Text Basic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +273,10 @@
 			files = (
 				B81D84661CDAED740007AE04 /* data.plist in Resources */,
 				B81D84581CDAE9FC0007AE04 /* LaunchScreen.storyboard in Resources */,
+				B8F595351CDCB08700FA3D16 /* BaroqueScript.ttf in Resources */,
 				B81D84551CDAE9FC0007AE04 /* Assets.xcassets in Resources */,
+				B8F595341CDCB08700FA3D16 /* KaushanScript-Regular.otf in Resources */,
+				B8F595361CDCB08700FA3D16 /* Palatino Linotype.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F5953A1CDCB20F00FA3D16 /* ViewGradientRoundedRect.m in Sources */,
 				B81D84641CDAEBC30007AE04 /* DetailMainScreenVC.m in Sources */,
 				B8F835FB1CDB435C006E8F7F /* ViewBasicRectangle.m in Sources */,
 				B81D84731CDB02B90007AE04 /* ViewFillColor.m in Sources */,
@@ -223,6 +295,12 @@
 				B8F836011CDB4DEC006E8F7F /* ViewBasicPath.m in Sources */,
 				B81D84611CDAEA7C0007AE04 /* MainScreenTableVC.m in Sources */,
 				B8F835FE1CDB46A7006E8F7F /* ViewRotateRect.m in Sources */,
+				B8F595301CDCAC9100FA3D16 /* ViewDrawText.m in Sources */,
+				B8F5952D1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m in Sources */,
+				B8F5952A1CDC8AAC00FA3D16 /* ViewControlPoint.m in Sources */,
+				B8A65B1A1CDC344C005CB16D /* ViewDrawLineTap.m in Sources */,
+				B8AA83DE1CDC408D00A59113 /* ViewFillPath.m in Sources */,
+				B8F595261CDC878800FA3D16 /* ViewQuadraticBezierCurve.m in Sources */,
 				B81D846B1CDAFC730007AE04 /* QuartzView.m in Sources */,
 				B8F835F81CDB2A58006E8F7F /* ViewDrawLine.m in Sources */,
 				B81D844A1CDAE9FC0007AE04 /* main.m in Sources */,
@@ -330,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreGraphicsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.CoreGraphicsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreGraphicsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.CoreGraphicsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";

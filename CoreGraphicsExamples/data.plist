@@ -19,24 +19,61 @@
 				<key>viewClass</key>
 				<string>ViewDrawLine</string>
 			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Basic Rectangle</string>
+				<key>viewClass</key>
+				<string>ViewBasicRectangle</string>
+			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Rotate Rectangle</string>
+				<key>viewClass</key>
+				<string>ViewRotateRect</string>
+			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Basic Path</string>
+				<key>viewClass</key>
+				<string>ViewBasicPath</string>
+			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Draw Line by Tap</string>
+				<key>viewClass</key>
+				<string>ViewDrawLineTap</string>
+			</dict>
+			<dict>
+				<key>titleCell</key>
+				<string>Fill Path</string>
+				<key>viewClass</key>
+				<string>ViewFillPath</string>
+			</dict>
             <dict>
                 <key>titleCell</key>
-                <string>Basic Rectangle</string>
+                <string>Quadratic Bezier Curve</string>
                 <key>viewClass</key>
-                <string>ViewBasicRectangle</string>
+                <string>ViewQuadraticBezierCurve</string>
             </dict>
             <dict>
                 <key>titleCell</key>
-                <string>Rotate Rectangle</string>
+                <string>Cubic Bézier Curve</string>
                 <key>viewClass</key>
-                <string>ViewRotateRect</string>
+                <string>ViewCubicBezierCurve</string>
             </dict>
             <dict>
                 <key>titleCell</key>
-                <string>Basic Path</string>
+                <string>Draw Text</string>
                 <key>viewClass</key>
-                <string>ViewBasicPath</string>
+                <string>ViewDrawText</string>
             </dict>
+            <dict>
+                <key>titleCell</key>
+                <string>Gradient Round Rect</string>
+                <key>viewClass</key>
+                <string>ViewGradientRoundedRect</string>
+            </dict>
+            
 		</array>
 	</dict>
 </array>

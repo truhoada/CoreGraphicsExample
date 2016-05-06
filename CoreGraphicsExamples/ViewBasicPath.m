@@ -16,6 +16,7 @@
 
     CGContextRef context = UIGraphicsGetCurrentContext();
     
+    //---------Vẽ 2 hình vuông-----------
     CGMutablePathRef path = CGPathCreateMutable();
     CGRect squareRect = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);
     CGPathAddRect(path, NULL, squareRect);
@@ -28,22 +29,23 @@
     CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
     CGContextDrawPath(context, kCGPathStroke);
 
-    //---------
+    
+    //---------Vẽ 2 hình tròn------------
     CGMutablePathRef path2 = CGPathCreateMutable();
     CGRect circleRect = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);
     CGPathAddEllipseInRect(path2, NULL, circleRect);
     CGContextAddPath(context, path2);
     
     
-
-    CGPathAddRect(path2, &tm, circleRect);
+    CGPathAddEllipseInRect(path2, &tm, circleRect);
     CGContextAddPath(context, path2);
     
     CGContextSetStrokeColorWithColor(context, [UIColor blueColor].CGColor);
+    
     CGContextDrawPath(context, kCGPathStroke);
     
     CGContextDrawPath(context, kCGPathFillStroke);
-
+ 
 
 }
 
