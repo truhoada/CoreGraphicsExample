@@ -23,7 +23,7 @@
     CGContextSetLineWidth(context, 10); //Độ dày của viền hình vuông
     CGContextSetRGBStrokeColor(context, 0.1f, 0.2f, 0.3f, 1.0f); //Màu viền hình vuông
 
-    // Draw yellow square
+    // Draw square
     CGRect squareRect = CGRectMake(self.center.x - width/2, self.center.y - width/2, width, width); //Toạ độ hv
     CGContextSetRGBFillColor(context, 0.6f, 0.8f, 0.1f, 1.0f); //Màu bên trong hình vuông
     CGContextFillRect(context, squareRect);

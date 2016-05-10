@@ -19,10 +19,10 @@
     
     //Path 0:
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathAddArc(path, NULL, 80, 80, 30, 0, M_PI*2, true);
-    CGPathAddArc(path, NULL, 80, 80, 50, M_PI*2, 0, true);
+    CGPathAddArc(path, NULL, 80, 80, 30, 0, M_PI, true);
+    CGPathAddArc(path, NULL, 80, 80, 50, 0, M_PI_2, true); //Vẽ từ điểm cuối đến điểm đầu theo kim đồng hồ (điểm cuối là điểm hiện tại)
     CGContextAddPath(context, path);
-    CGContextDrawPath(context, kCGPathEOFill);
+    CGContextDrawPath(context, kCGPathFillStroke);
     
     //Path1
     CGMutablePathRef path1= CGPathCreateMutable();
