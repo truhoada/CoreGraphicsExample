@@ -31,9 +31,9 @@ CGColorRef RandomColor() {
 }
 
 - (void)drawRect:(CGRect)rect {
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(context, RandomColor());
-    CGContextFillRect(context, rect);
+    CGContextRef context = UIGraphicsGetCurrentContext(); //Nơi vẽ
+    CGContextSetFillColorWithColor(context, RandomColor()); //Set mầu
+    CGContextFillRect(context, rect); // Đổ mầu
 }
 
 - (void)refreshView {

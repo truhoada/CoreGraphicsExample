@@ -16,6 +16,9 @@
 		B81D84661CDAED740007AE04 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81D84651CDAED740007AE04 /* data.plist */; };
 		B81D846B1CDAFC730007AE04 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D846A1CDAFC730007AE04 /* QuartzView.m */; };
 		B81D84731CDB02B90007AE04 /* ViewFillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D84721CDB02B90007AE04 /* ViewFillColor.m */; };
+		B89609E51CE033F500E92E1F /* ViewRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B89609E41CE033F500E92E1F /* ViewRingChart.m */; };
+		B89609EC1CE0420300E92E1F /* TextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B89609EB1CE0420300E92E1F /* TextLayer.m */; };
+		B89609F01CE0581400E92E1F /* ViewFallingRain.m in Sources */ = {isa = PBXBuildFile; fileRef = B89609EF1CE0581400E92E1F /* ViewFallingRain.m */; };
 		B8A65B1A1CDC344C005CB16D /* ViewDrawLineTap.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A65B191CDC344C005CB16D /* ViewDrawLineTap.m */; };
 		B8AA83DE1CDC408D00A59113 /* ViewFillPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA83DD1CDC408D00A59113 /* ViewFillPath.m */; };
 		B8F595261CDC878800FA3D16 /* ViewQuadraticBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F595251CDC878800FA3D16 /* ViewQuadraticBezierCurve.m */; };
@@ -49,6 +52,12 @@
 		B81D846A1CDAFC730007AE04 /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 		B81D84711CDB02B90007AE04 /* ViewFillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFillColor.h; sourceTree = "<group>"; };
 		B81D84721CDB02B90007AE04 /* ViewFillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFillColor.m; sourceTree = "<group>"; };
+		B89609E31CE033F500E92E1F /* ViewRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewRingChart.h; sourceTree = "<group>"; };
+		B89609E41CE033F500E92E1F /* ViewRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewRingChart.m; sourceTree = "<group>"; };
+		B89609EA1CE0420300E92E1F /* TextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayer.h; sourceTree = "<group>"; };
+		B89609EB1CE0420300E92E1F /* TextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayer.m; sourceTree = "<group>"; };
+		B89609EE1CE0581400E92E1F /* ViewFallingRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFallingRain.h; sourceTree = "<group>"; };
+		B89609EF1CE0581400E92E1F /* ViewFallingRain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFallingRain.m; sourceTree = "<group>"; };
 		B8A65B181CDC344C005CB16D /* ViewDrawLineTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrawLineTap.h; sourceTree = "<group>"; };
 		B8A65B191CDC344C005CB16D /* ViewDrawLineTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrawLineTap.m; sourceTree = "<group>"; };
 		B8AA83DC1CDC408D00A59113 /* ViewFillPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFillPath.h; sourceTree = "<group>"; };
@@ -152,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B81D846D1CDB02440007AE04 /* Basic */,
+				B89609ED1CE056C400E92E1F /* Intermediate */,
 			);
 			name = ViewLesson;
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 				B8F835FA1CDB435C006E8F7F /* ViewBasicRectangle.m */,
 				B8F835FC1CDB46A7006E8F7F /* ViewRotateRect.h */,
 				B8F835FD1CDB46A7006E8F7F /* ViewRotateRect.m */,
+				B89609EE1CE0581400E92E1F /* ViewFallingRain.h */,
+				B89609EF1CE0581400E92E1F /* ViewFallingRain.m */,
 				B8F835FF1CDB4DEC006E8F7F /* ViewBasicPath.h */,
 				B8F836001CDB4DEC006E8F7F /* ViewBasicPath.m */,
 				B8A65B181CDC344C005CB16D /* ViewDrawLineTap.h */,
@@ -179,6 +191,25 @@
 				B8F595391CDCB20F00FA3D16 /* ViewGradientRoundedRect.m */,
 			);
 			name = Basic;
+			sourceTree = "<group>";
+		};
+		B89609E21CE033CE00E92E1F /* Ring Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B89609E31CE033F500E92E1F /* ViewRingChart.h */,
+				B89609E41CE033F500E92E1F /* ViewRingChart.m */,
+				B89609EA1CE0420300E92E1F /* TextLayer.h */,
+				B89609EB1CE0420300E92E1F /* TextLayer.m */,
+			);
+			name = "Ring Chart";
+			sourceTree = "<group>";
+		};
+		B89609ED1CE056C400E92E1F /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B89609E21CE033CE00E92E1F /* Ring Chart */,
+			);
+			name = Intermediate;
 			sourceTree = "<group>";
 		};
 		B8F595201CDC85FC00FA3D16 /* Bezier Curve */ = {
@@ -297,9 +328,12 @@
 				B8F835FE1CDB46A7006E8F7F /* ViewRotateRect.m in Sources */,
 				B8F595301CDCAC9100FA3D16 /* ViewDrawText.m in Sources */,
 				B8F5952D1CDCA21F00FA3D16 /* ViewCubicBezierCurve.m in Sources */,
+				B89609EC1CE0420300E92E1F /* TextLayer.m in Sources */,
 				B8F5952A1CDC8AAC00FA3D16 /* ViewControlPoint.m in Sources */,
 				B8A65B1A1CDC344C005CB16D /* ViewDrawLineTap.m in Sources */,
 				B8AA83DE1CDC408D00A59113 /* ViewFillPath.m in Sources */,
+				B89609F01CE0581400E92E1F /* ViewFallingRain.m in Sources */,
+				B89609E51CE033F500E92E1F /* ViewRingChart.m in Sources */,
 				B8F595261CDC878800FA3D16 /* ViewQuadraticBezierCurve.m in Sources */,
 				B81D846B1CDAFC730007AE04 /* QuartzView.m in Sources */,
 				B8F835F81CDB2A58006E8F7F /* ViewDrawLine.m in Sources */,

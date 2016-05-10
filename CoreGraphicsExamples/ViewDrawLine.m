@@ -7,6 +7,7 @@
 //
 
 #import "ViewDrawLine.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation ViewDrawLine
 
@@ -17,12 +18,12 @@
     
     CGContextBeginPath(context); //Chuẩn bị vẽ 1 đường
     CGSize size = self.bounds.size;
-
-    CGContextMoveToPoint(context, 0, 0); //Chuyển đến 1 điểm
-    CGContextAddLineToPoint(context, size.width, size.height);//Kéo một đường từ một điểm đến một điểm
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    
+    CGContextMoveToPoint(context, 0, 0); //Bắt đầu 1 subPath mới tại điểm xác định
+    CGContextAddLineToPoint(context, size.width, size.height);//Kéo một đường thẳng từ điểm hiện tại đến một điểm xác định
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor); //Set stroke color: Màu nét vẽ hiện tại
     CGContextSetLineWidth(context, 2.0);//Set width Line
-    CGContextDrawPath(context, kCGPathStroke);
+    CGContextDrawPath(context, kCGPathStroke); //Vẽ Path hiện tại với các thuộc tính đã set.
 
     
     CGContextMoveToPoint(context, size.width, 0);
@@ -30,6 +31,8 @@
     CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
     CGContextSetLineWidth(context, 5);//Set width Line
     CGContextDrawPath(context, kCGPathStroke);
+    
+    
 }
 
 

@@ -102,7 +102,7 @@
         [quartzView customizeViewController:self.detailMainVC];
     }
     
-    [self.navigationController pushViewController:self.detailMainVC animated:1];
+    [self.navigationController pushViewController:self.detailMainVC animated:YES];
     
 }
 

@@ -17,8 +17,19 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    
+    SEL sel = @selector(customView);
+    
+    if ([self.view respondsToSelector:sel]) {
+        //Tắt compiler warning performSelector may cause a leak because its selector is unknown
+        #pragma clang diagnostic push
+        #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        [self.view performSelector:sel];
+        #pragma clang diagnostic pop
+    }
+    
 }
 
 - (void) viewWillDisappear:(BOOL)animated {
